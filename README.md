@@ -41,36 +41,27 @@ We believe in **radical transparency** about data flows:
 
 ```mermaid
 flowchart TD
-    A[📱 Machine B<br/>Phone/Tablet] -->|1. Request| B[🌐 https://[token].local-corp<br/>.webcontainer-api.io/api/weather]
-    B -->|2. DNS Resolution| C[☁️ StackBlitz Cloud<br/>(Netherlands)]
+    A["📱 Machine B\nPhone/Tablet"] -->|1. Request| B["🌐 https://token.local-corp\n.webcontainer-api.io/api/weather"]
+    B -->|2. DNS Resolution| C["☁️ StackBlitz Cloud\n(Netherlands)"]
     
-    C -->|3. Session Check| D{🔍 Is this request from<br/>Machine A's session?}
+    C -->|3. Session Check| D{"🔍 Is this request from\nMachine A's session?"}
     
-    D -->|✅ YES| E[🔄 Tunnel request BACK to<br/>Machine A via WebSocket]
-    E --> F[💻 Machine A<br/>(Browser maintains persistent<br/>WebSocket connection)]
-    F -->|4. Process request| G[📦 WebContainer<br/>Node.js Server]
+    D -->|✅ YES| E["🔄 Tunnel request BACK to\nMachine A via WebSocket"]
+    E --> F["💻 Machine A\n(Browser maintains persistent\nWebSocket connection)"]
+    F -->|4. Process request| G["📦 WebContainer\nNode.js Server"]
     G -->|5. Response| C
     C -->|6. Return data| A
     
-    D -->|❌ NO| H[🚪 Show "Connect to Project"<br/>Page]
-    H --> I[⚠️ Attempts localhost:5173/5074<br/>(Fails on Machine B)]
-    I --> J[❌ Request Blocked]
+    D -->|❌ NO| H["🚪 Show 'Connect to Project'\nPage"]
+    H --> I["⚠️ Attempts localhost:5173/5074\n(Fails on Machine B)"]
+    I --> J["❌ Request Blocked"]
     
     style A fill:#4ecdc4,stroke:#2c8c8c,color:#0a3d3d
     style C fill:#ff6b6b,stroke:#cc5555,color:#fff
     style F fill:#4ecdc4,stroke:#2c8c8c,color:#0a3d3d
     style D fill:#ffe66d,stroke:#e6b800,color:#333
     style J fill:#ff9e9e,stroke:#ff6b6b,color:#fff
-    
-    classDef machine fill:#4ecdc4,stroke:#2c8c8c,color:#0a3d3d
-    classDef cloud fill:#ff6b6b,stroke:#cc5555,color:#fff
-    classDef decision fill:#ffe66d,stroke:#e6b800,color:#333
-    classDef fail fill:#ff9e9e,stroke:#ff6b6b,color:#fff
-    
-    class A,F machine
-    class C cloud
-    class D decision
-    class J fail
+
 ```
 
 
