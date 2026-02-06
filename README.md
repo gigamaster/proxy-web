@@ -52,7 +52,8 @@ flowchart TD
     C -->|6. Return| A
     D -->|NO| H["Connect to Project"]
     H --> I["localhost:5173\nFails on Machine B"]
-    I --> J["Blocked"]
+    J["Blocked"]
+    I --> J
 ```
 
 
