@@ -42,16 +42,16 @@ We believe in **radical transparency** about data flows:
 
 ```mermaid
 flowchart TD
-    A["Machine B\nPhone/Tablet"] -->|1. Request| B["WebContainer URL"]
-    B -->|2. DNS| C["StackBlitz Cloud\nNetherlands"]
+    A["Machine B<br>Phone/Tablet"] -->|1. Request| B["WebContainer URL"]
+    B -->|2. DNS| C["StackBlitz Cloud<br>Netherlands"]
     C -->|3. Session Check| D{"From Machine A?"}
     D -->|YES| E["Tunnel via WebSocket"]
-    E --> F["Machine A\nPersistent Connection"]
+    E --> F["Machine A<br>Persistent Connection"]
     F -->|4. Process| G["WebContainer\nNode.js Server"]
     G -->|5. Response| C
     C -->|6. Return| A
     D -->|NO| H["Connect to Project"]
-    H --> I["localhost:5173\nFails on Machine B"]
+    H --> I["localhost:5174<br>Fails on Machine B"]
     J["Blocked"]
     I --> J
 ```
