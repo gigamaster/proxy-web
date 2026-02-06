@@ -39,29 +39,20 @@ We believe in **radical transparency** about data flows:
 ### Technical Reality: The "Hidden Tunnel"
 
 
+
 ```mermaid
 flowchart TD
-    A["📱 Machine B\nPhone/Tablet"] -->|1. Request| B["🌐 https://token.local-corp\n.webcontainer-api.io/api/weather"]
-    B -->|2. DNS Resolution| C["☁️ StackBlitz Cloud\n(Netherlands)"]
-    
-    C -->|3. Session Check| D{"🔍 Is this request from\nMachine A's session?"}
-    
-    D -->|✅ YES| E["🔄 Tunnel request BACK to\nMachine A via WebSocket"]
-    E --> F["💻 Machine A\n(Browser maintains persistent\nWebSocket connection)"]
-    F -->|4. Process request| G["📦 WebContainer\nNode.js Server"]
+    A["Machine B\nPhone/Tablet"] -->|1. Request| B["WebContainer URL"]
+    B -->|2. DNS| C["StackBlitz Cloud\nNetherlands"]
+    C -->|3. Session Check| D{"From Machine A?"}
+    D -->|YES| E["Tunnel via WebSocket"]
+    E --> F["Machine A\nPersistent Connection"]
+    F -->|4. Process| G["WebContainer\nNode.js Server"]
     G -->|5. Response| C
-    C -->|6. Return data| A
-    
-    D -->|❌ NO| H["🚪 Show 'Connect to Project'\nPage"]
-    H --> I["⚠️ Attempts localhost:5173/5074\n(Fails on Machine B)"]
-    I --> J["❌ Request Blocked"]
-    
-    style A fill:#4ecdc4,stroke:#2c8c8c,color:#0a3d3d
-    style C fill:#ff6b6b,stroke:#cc5555,color:#fff
-    style F fill:#4ecdc4,stroke:#2c8c8c,color:#0a3d3d
-    style D fill:#ffe66d,stroke:#e6b800,color:#333
-    style J fill:#ff9e9e,stroke:#ff6b6b,color:#fff
-
+    C -->|6. Return| A
+    D -->|NO| H["Connect to Project"]
+    H --> I["localhost:5173\nFails on Machine B"]
+    I --> J["Blocked"]
 ```
 
 
