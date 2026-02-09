@@ -1,67 +1,48 @@
-<svg fill="none" viewBox="0 0 800 900" width="800" height="900" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
-  <foreignObject width="100%" height="100%">
-    <div xmlns="http://www.w3.org/1999/xhtml" style="font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif; color: #c9d1d9; background: #0d1117; padding: 20px; margin: 0;">
-      <style>
-        .fc {
-          display: flex;
-          flex-wrap: wrap;
-          gap: 16px;
-        }
-        .fi {
-          flex: 1 1 240px;
-          min-width: 240px;
-          background: #161b22;
-          border: 1px solid #30363d;
-          border-radius: 6px;
-          padding: 16px;
-          box-sizing: border-box;
-          font-size: 15px;
-          line-height: 1.5;
-          color: #c9d1d9;
-        }
-        .fi strong {
-          color: #58a6ff;
-          display: block;
-          margin-bottom: 4px;
-        }
-      </style>
-
-      <h2 style="color: #e6edf3; margin: 0 0 20px 0;">Proxy-Web SPA Features</h2>
-
-      <div class="fc">
-        <div class="fi">
-          <strong>Runs 100% in-browser</strong>
-          No servers, no installs, no cloud – pure SPA.
-        </div>
-        <div class="fi">
-          <strong>Works fully offline</strong>
-          Fetch, parse, mock & save even without internet.
-        </div>
-        <div class="fi">
-          <strong>Local-first & private</strong>
-          Your data stays on your device only.
-        </div>
-        <div class="fi">
-          <strong>One-click CORS bypass</strong>
-          Fetch any API instantly – no proxies needed.
-        </div>
-        <div class="fi">
-          <strong>XML → JSON + TS types</strong>
-          Parse feeds and generate typed interfaces fast.
-        </div>
-        <div class="fi">
-          <strong>Persistent local DB</strong>
-          Save responses/mocks via IndexedDB forever.
-        </div>
-        <div class="fi">
-          <strong>Local API mocking</strong>
-          Test offline with fake endpoints in browser.
-        </div>
-        <div class="fi">
-          <strong>Digital sovereignty</strong>
-          Self-contained, self-hostable, nomad-ready.
-        </div>
-      </div>
-    </div>
-  </foreignObject>
+<svg width="820" height="720" viewBox="0 0 820 720" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <rect width="820" height="720" fill="#0d1117"/>
+  <text x="410" y="60" font-family="system-ui, sans-serif" font-size="32" font-weight="bold" fill="#e6edf3" text-anchor="middle">
+    Proxy-Web SPA Features
+  </text>
+  <rect x="40" y="100" width="360" height="110" rx="6" fill="#161b22" stroke="#30363d" stroke-width="1"/>
+  <text x="60" y="130" font-family="system-ui, sans-serif" font-size="18" font-weight="bold" fill="#58a6ff">
+    Runs 100% in-browser
+  </text>
+  <text x="60" y="158" font-family="system-ui, sans-serif" font-size="15" fill="#c9d1d9">
+    No servers, no installs, no cloud – pure SPA.
+  </text>
+  <rect x="420" y="100" width="360" height="110" rx="6" fill="#161b22" stroke="#30363d" stroke-width="1"/>
+  <text x="440" y="130" font-family="system-ui, sans-serif" font-size="18" font-weight="bold" fill="#58a6ff">
+    Works fully offline
+  </text>
+  <text x="440" y="158" font-family="system-ui, sans-serif" font-size="15" fill="#c9d1d9">
+    Fetch, parse & save even without internet.
+  </text>
+  <rect x="40" y="230" width="360" height="110" rx="6" fill="#161b22" stroke="#30363d" stroke-width="1"/>
+  <text x="60" y="260" font-family="system-ui, sans-serif" font-size="18" font-weight="bold" fill="#58a6ff">
+    Local-first & private
+  </text>
+  <text x="60" y="288" font-family="system-ui, sans-serif" font-size="15" fill="#c9d1d9">
+    Your data stays on your device only.
+  </text>
+  <rect x="420" y="230" width="360" height="110" rx="6" fill="#161b22" stroke="#30363d" stroke-width="1"/>
+  <text x="440" y="260" font-family="system-ui, sans-serif" font-size="18" font-weight="bold" fill="#58a6ff">
+    One-click CORS bypass
+  </text>
+  <text x="440" y="288" font-family="system-ui, sans-serif" font-size="15" fill="#c9d1d9">
+    Fetch any API instantly – no proxies needed.
+  </text>
+  <rect x="40" y="360" width="360" height="110" rx="6" fill="#161b22" stroke="#30363d" stroke-width="1"/>
+  <text x="60" y="390" font-family="system-ui, sans-serif" font-size="18" font-weight="bold" fill="#58a6ff">
+    XML → JSON + TS types
+  </text>
+  <text x="60" y="418" font-family="system-ui, sans-serif" font-size="15" fill="#c9d1d9">
+    Parse feeds and generate types fast.
+  </text>
+  <rect x="420" y="360" width="360" height="110" rx="6" fill="#161b22" stroke="#30363d" stroke-width="1"/>
+  <text x="440" y="390" font-family="system-ui, sans-serif" font-size="18" font-weight="bold" fill="#58a6ff">
+    Persistent local DB
+  </text>
+  <text x="440" y="418" font-family="system-ui, sans-serif" font-size="15" fill="#c9d1d9">
+    Save responses/mocks forever via IndexedDB.
+  </text>
 </svg>
