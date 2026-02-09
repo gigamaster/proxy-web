@@ -1,48 +1,27 @@
-<svg width="820" height="720" viewBox="0 0 820 720" fill="none" xmlns="http://www.w3.org/2000/svg">
-  <rect width="820" height="720" fill="#0d1117"/>
-  <text x="410" y="60" font-family="system-ui, sans-serif" font-size="32" font-weight="bold" fill="#e6edf3" text-anchor="middle">
+<svg xmlns="http://www.w3.org/2000/svg" width="820" height="520" fill="none"><path fill="#0d1117" d="M0 0h820v720H0z"/><text x="410" y="60" fill="#e6edf3" font-family="system-ui, sans-serif" font-size="32" font-weight="bold" text-anchor="middle">
     Proxy-Web SPA Features
-  </text>
-  <rect x="40" y="100" width="360" height="110" rx="6" fill="#161b22" stroke="#30363d" stroke-width="1"/>
-  <text x="60" y="130" font-family="system-ui, sans-serif" font-size="18" font-weight="bold" fill="#58a6ff">
+  </text><rect width="360" height="110" x="40" y="100" fill="#161b22" stroke="#30363d" rx="6"/><text x="60" y="130" fill="#58a6ff" font-family="system-ui, sans-serif" font-size="18" font-weight="bold">
     Runs 100% in-browser
-  </text>
-  <text x="60" y="158" font-family="system-ui, sans-serif" font-size="15" fill="#c9d1d9">
+  </text><text x="60" y="158" fill="#c9d1d9" font-family="system-ui, sans-serif" font-size="15">
     No servers, no installs, no cloud – pure SPA.
-  </text>
-  <rect x="420" y="100" width="360" height="110" rx="6" fill="#161b22" stroke="#30363d" stroke-width="1"/>
-  <text x="440" y="130" font-family="system-ui, sans-serif" font-size="18" font-weight="bold" fill="#58a6ff">
+  </text><rect width="360" height="110" x="420" y="100" fill="#161b22" stroke="#30363d" rx="6"/><text x="440" y="130" fill="#58a6ff" font-family="system-ui, sans-serif" font-size="18" font-weight="bold">
     Works fully offline
-  </text>
-  <text x="440" y="158" font-family="system-ui, sans-serif" font-size="15" fill="#c9d1d9">
-    Fetch, parse & save even without internet.
-  </text>
-  <rect x="40" y="230" width="360" height="110" rx="6" fill="#161b22" stroke="#30363d" stroke-width="1"/>
-  <text x="60" y="260" font-family="system-ui, sans-serif" font-size="18" font-weight="bold" fill="#58a6ff">
-    Local-first & private
-  </text>
-  <text x="60" y="288" font-family="system-ui, sans-serif" font-size="15" fill="#c9d1d9">
+  </text><text x="440" y="158" fill="#c9d1d9" font-family="system-ui, sans-serif" font-size="15">
+    Fetch, parse and save even without internet.
+  </text><rect width="360" height="110" x="40" y="230" fill="#161b22" stroke="#30363d" rx="6"/><text x="60" y="260" fill="#58a6ff" font-family="system-ui, sans-serif" font-size="18" font-weight="bold">
+    Local-first and private
+  </text><text x="60" y="288" fill="#c9d1d9" font-family="system-ui, sans-serif" font-size="15">
     Your data stays on your device only.
-  </text>
-  <rect x="420" y="230" width="360" height="110" rx="6" fill="#161b22" stroke="#30363d" stroke-width="1"/>
-  <text x="440" y="260" font-family="system-ui, sans-serif" font-size="18" font-weight="bold" fill="#58a6ff">
+  </text><rect width="360" height="110" x="420" y="230" fill="#161b22" stroke="#30363d" rx="6"/><text x="440" y="260" fill="#58a6ff" font-family="system-ui, sans-serif" font-size="18" font-weight="bold">
     One-click CORS bypass
-  </text>
-  <text x="440" y="288" font-family="system-ui, sans-serif" font-size="15" fill="#c9d1d9">
+  </text><text x="440" y="288" fill="#c9d1d9" font-family="system-ui, sans-serif" font-size="15">
     Fetch any API instantly – no proxies needed.
-  </text>
-  <rect x="40" y="360" width="360" height="110" rx="6" fill="#161b22" stroke="#30363d" stroke-width="1"/>
-  <text x="60" y="390" font-family="system-ui, sans-serif" font-size="18" font-weight="bold" fill="#58a6ff">
+  </text><rect width="360" height="110" x="40" y="360" fill="#161b22" stroke="#30363d" rx="6"/><text x="60" y="390" fill="#58a6ff" font-family="system-ui, sans-serif" font-size="18" font-weight="bold">
     XML → JSON + TS types
-  </text>
-  <text x="60" y="418" font-family="system-ui, sans-serif" font-size="15" fill="#c9d1d9">
+  </text><text x="60" y="418" fill="#c9d1d9" font-family="system-ui, sans-serif" font-size="15">
     Parse feeds and generate types fast.
-  </text>
-  <rect x="420" y="360" width="360" height="110" rx="6" fill="#161b22" stroke="#30363d" stroke-width="1"/>
-  <text x="440" y="390" font-family="system-ui, sans-serif" font-size="18" font-weight="bold" fill="#58a6ff">
+  </text><rect width="360" height="110" x="420" y="360" fill="#161b22" stroke="#30363d" rx="6"/><text x="440" y="390" fill="#58a6ff" font-family="system-ui, sans-serif" font-size="18" font-weight="bold">
     Persistent local DB
-  </text>
-  <text x="440" y="418" font-family="system-ui, sans-serif" font-size="15" fill="#c9d1d9">
+  </text><text x="440" y="418" fill="#c9d1d9" font-family="system-ui, sans-serif" font-size="15">
     Save responses/mocks forever via IndexedDB.
-  </text>
-</svg>
+  </text></svg>
