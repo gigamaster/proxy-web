@@ -1,70 +1,66 @@
-<svg fill="none" viewBox="0 0 600 300" width="600" height="300" xmlns="http://www.w3.org/2000/svg">
+<svg fill="none" viewBox="0 0 800 900" width="800" height="900" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
   <foreignObject width="100%" height="100%">
-    <div xmlns="http://www.w3.org/1999/xhtml">
+    <div xmlns="http://www.w3.org/1999/xhtml" style="font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif; color: #c9d1d9; background: #0d1117; padding: 20px; margin: 0;">
       <style>
-    .fc {
-      display: flex;
-      flex-wrap: wrap;
-      gap: 1rem;
-      margin-bottom: 4rem;
-    }
-    .fi {
-      flex: 1 1 260px;
-      min-width: 260px;
-      height: 140px;
-      background: #161b22;           /* GitHub dark card bg */
-      border: 1px solid #30363d;     /* subtle dark border */
-      border-radius: 6px;
-      display: grid;
-      place-items: center;
-      font-size: 1.8rem;
-      font-weight: bold;
-      color: #58a6ff;                /* GitHub blue accent */
-    }
+        .fc {
+          display: flex;
+          flex-wrap: wrap;
+          gap: 16px;
+        }
+        .fi {
+          flex: 1 1 240px;
+          min-width: 240px;
+          background: #161b22;
+          border: 1px solid #30363d;
+          border-radius: 6px;
+          padding: 16px;
+          box-sizing: border-box;
+          font-size: 15px;
+          line-height: 1.5;
+          color: #c9d1d9;
+        }
+        .fi strong {
+          color: #58a6ff;
+          display: block;
+          margin-bottom: 4px;
+        }
       </style>
-      <h1>Hi there, my name is Nikola 👋</h1>
+
+      <h2 style="color: #e6edf3; margin: 0 0 20px 0;">Proxy-Web SPA Features</h2>
+
       <div class="fc">
-        
-<div class="fi">
-  <strong>Runs 100% in-browser</strong><br>
-  No servers, no installs, no cloud dependency – pure SPA magic.
-</div>
-<div class="fi">
-  <strong>Works fully offline</strong><br>
-  Keep fetching, parsing, mocking & saving even during internet outages, in rural areas or on flights.
-</div>
-<div class="fi">
-  <strong>Local-first & private by design</strong><br>
-  Your data never leaves your device unless you choose to share it.
-</div>
-<div class="fi">
-  <strong>One-click CORS bypass</strong><br>
-  Fetch data from any API instantly – no proxy servers or browser extensions needed.
-</div>
-<div class="fi">
-  <strong>Click & run proxy</strong><br>
-  Turn your browser into a powerful proxy tool with a single click.
-</div>
-<div class="fi">
-  <strong>XML → JSON + TypeScript types</strong><br>
-  Parse XML feeds to clean JSON and auto-generate typed interfaces in seconds.
-</div>
-<div class="fi">
-  <strong>Persistent local storage</strong><br>
-  Save responses, mocks & configs to IndexedDB – access them anytime, forever.
-</div>
-<div class="fi">
-  <strong>Local API mocking</strong><br>
-  Create & test against fake endpoints directly in your browser – ideal for offline dev.
-</div>
-<div class="fi">
-  <strong>Broadcast JSON in real-time</strong><br>
-  Share parsed data instantly across tabs, devices or local networks.
-</div>
-<div class="fi">
-  <strong>Digital sovereignty & nomad-ready</strong><br>
-  Self-contained, self-hostable, no vendor lock-in – perfect for independent developers.
-</div>
+        <div class="fi">
+          <strong>Runs 100% in-browser</strong>
+          No servers, no installs, no cloud – pure SPA.
+        </div>
+        <div class="fi">
+          <strong>Works fully offline</strong>
+          Fetch, parse, mock & save even without internet.
+        </div>
+        <div class="fi">
+          <strong>Local-first & private</strong>
+          Your data stays on your device only.
+        </div>
+        <div class="fi">
+          <strong>One-click CORS bypass</strong>
+          Fetch any API instantly – no proxies needed.
+        </div>
+        <div class="fi">
+          <strong>XML → JSON + TS types</strong>
+          Parse feeds and generate typed interfaces fast.
+        </div>
+        <div class="fi">
+          <strong>Persistent local DB</strong>
+          Save responses/mocks via IndexedDB forever.
+        </div>
+        <div class="fi">
+          <strong>Local API mocking</strong>
+          Test offline with fake endpoints in browser.
+        </div>
+        <div class="fi">
+          <strong>Digital sovereignty</strong>
+          Self-contained, self-hostable, nomad-ready.
+        </div>
       </div>
     </div>
   </foreignObject>
