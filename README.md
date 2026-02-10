@@ -9,13 +9,13 @@
 </h1>
 
 <picture>
-  <img src="./4x4.png" alt="Overview" style="width:800px; height:32px">
+  <img src="./images/4x4.png" alt="Overview" style="width:800px; height:32px">
 </picture>
 
 **Proxy-Web** is a secure, offline-first HTTP client designed for the digital nomad workflow. It is built to run on local hardware: Mini-PCs, and travel laptops without reliance on cloud sync, external CDNs, or heavy container runtimes.
 
 <picture>
-  <img src="./4x4.png" alt="Overview" style="width:800px; height:32px">
+  <img src="./images/4x4.png" alt="Overview" style="width:800px; height:32px">
 </picture>
 
 
@@ -24,7 +24,7 @@
 </picture>
 
 <picture>
-  <img src="./4x4.png" alt="Overview" style="width:800px; height:32px">
+  <img src="./images/4x4.png" alt="Overview" style="width:800px; height:32px">
 </picture>
 
 <p align="center">
@@ -92,7 +92,7 @@ An **SPA proxy** (Single-Page Application proxy) implemented entirely in the bro
   Self-contained, self-hostable, no vendor lock-in – perfect for independent developers.
 
 <picture>
-  <img src="./4x4.png" alt="Overview" style="width:800px; height:32px">
+  <img src="./images/4x4.png" alt="Overview" style="width:800px; height:32px">
 </picture>
 
 ### Trade-offs to Consider
@@ -121,7 +121,7 @@ An in-browser SPA proxy turns the browser into a **self-contained, private, offl
 
 
 <picture>
-  <img src="./4x4.png" alt="Overview" style="width:800px; height:32px">
+  <img src="./images/4x4.png" alt="Overview" style="width:800px; height:32px">
 </picture>
 
 ## License
