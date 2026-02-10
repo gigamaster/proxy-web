@@ -1,27 +1,51 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="820" height="520" fill="none"><path fill="#0d1117" d="M0 0h820v720H0z"/><text x="410" y="60" fill="#e6edf3" font-family="system-ui, sans-serif" font-size="32" font-weight="bold" text-anchor="middle">
-    Proxy-Web SPA Features
-  </text><rect width="360" height="110" x="40" y="100" fill="#161b22" stroke="#30363d" rx="6"/><text x="60" y="130" fill="#58a6ff" font-family="system-ui, sans-serif" font-size="18" font-weight="bold">
-    Runs 100% in-browser
-  </text><text x="60" y="158" fill="#c9d1d9" font-family="system-ui, sans-serif" font-size="15">
+<svg xmlns="http://www.w3.org/2000/svg" width="820" height="520" fill="none">
+<style>
+    svg>text {font-family:system-ui, sans-serif;font-weight:bold;}
+    svg>text.title {
+    fill:#e6edf3;
+    font-size:32px;
+    }
+    svg>text.feat {
+    fill:#58a6ff;
+    font-size:18px;
+    }
+    svg>text.desc {
+    fill:#c9d1d9;
+    font-size:15px;
+    }
+    svg>rect {
+    fill:#161b22;
+    stroke:#30363d;
+    }
+    svg>rect:hover {
+    fill:#30363d; 
+    stroke:#161b22;
+    }
+</style>
+    <path fill="#0d1117" d="M0 0h820v720H0z"/>
+    <text x="410" y="60" text-anchor="middle" class="title">Proxy-Web SPA Features</text>
+    <rect width="360" height="110" x="40" y="100" fill="#161b22" stroke="#30363d" rx="6"/><text x="60" y="130" class="feat">
+    Runs 100% in-browser</text>
+    <text x="60" y="158" class="desc">
     No servers, no installs, no cloud – pure SPA.
-  </text><rect width="360" height="110" x="420" y="100" fill="#161b22" stroke="#30363d" rx="6"/><text x="440" y="130" fill="#58a6ff" font-family="system-ui, sans-serif" font-size="18" font-weight="bold">
+  </text><rect width="360" height="110" x="420" y="100" fill="#161b22" stroke="#30363d" rx="6"/><text x="440" y="130" class="feat">
     Works fully offline
   </text><text x="440" y="158" fill="#c9d1d9" font-family="system-ui, sans-serif" font-size="15">
     Fetch, parse and save even without internet.
-  </text><rect width="360" height="110" x="40" y="230" fill="#161b22" stroke="#30363d" rx="6"/><text x="60" y="260" fill="#58a6ff" font-family="system-ui, sans-serif" font-size="18" font-weight="bold">
+  </text><rect width="360" height="110" x="40" y="230" fill="#161b22" stroke="#30363d" rx="6"/><text x="60" y="260" class="feat">
     Local-first and private
-  </text><text x="60" y="288" fill="#c9d1d9" font-family="system-ui, sans-serif" font-size="15">
+  </text><text x="60" y="288" class="desc">
     Your data stays on your device only.
-  </text><rect width="360" height="110" x="420" y="230" fill="#161b22" stroke="#30363d" rx="6"/><text x="440" y="260" fill="#58a6ff" font-family="system-ui, sans-serif" font-size="18" font-weight="bold">
+  </text><rect width="360" height="110" x="420" y="230" fill="#161b22" stroke="#30363d" rx="6"/><text x="440" y="260" class="feat">
     One-click CORS bypass
-  </text><text x="440" y="288" fill="#c9d1d9" font-family="system-ui, sans-serif" font-size="15">
+  </text><text x="440" y="288" class="desc">
     Fetch any API instantly – no proxies needed.
-  </text><rect width="360" height="110" x="40" y="360" fill="#161b22" stroke="#30363d" rx="6"/><text x="60" y="390" fill="#58a6ff" font-family="system-ui, sans-serif" font-size="18" font-weight="bold">
+  </text><rect width="360" height="110" x="40" y="360" fill="#161b22" stroke="#30363d" rx="6"/><text x="60" y="390" class="feat">
     XML → JSON + TS types
-  </text><text x="60" y="418" fill="#c9d1d9" font-family="system-ui, sans-serif" font-size="15">
+  </text><text x="60" y="418" class="desc">
     Parse feeds and generate types fast.
-  </text><rect width="360" height="110" x="420" y="360" fill="#161b22" stroke="#30363d" rx="6"/><text x="440" y="390" fill="#58a6ff" font-family="system-ui, sans-serif" font-size="18" font-weight="bold">
+  </text><rect width="360" height="110" x="420" y="360" fill="#161b22" stroke="#30363d" rx="6"/><text x="440" y="390" class="feat">
     Persistent local DB
-  </text><text x="440" y="418" fill="#c9d1d9" font-family="system-ui, sans-serif" font-size="15">
+  </text><text x="440" y="418" class="desc">
     Save responses/mocks forever via IndexedDB.
   </text></svg>
