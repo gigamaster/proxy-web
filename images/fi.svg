@@ -23,7 +23,7 @@
     }
 </style>
     <path fill="#0d1117" d="M0 0h820v720H0z"/>
-    <text x="410" y="60" text-anchor="middle" class="title">Proxy-Web SPA Features</text>
+    <text x="410" y="60" text-anchor="middle" class="title">In-Browser SPA Proxy Features</text>
     <rect width="360" height="110" x="40" y="100" fill="#161b22" stroke="#30363d" rx="6"/><text x="60" y="130" class="feat">
     Runs 100% in-browser</text>
     <text x="60" y="158" class="desc">
