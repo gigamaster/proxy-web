@@ -48,15 +48,15 @@ An **SPA proxy** (Single-Page Application proxy) implemented entirely in the bro
 
 ### 2. True Offline & Local-First Operation
 - After the initial page load, the proxy logic runs even without internet
-- Cache responses, mock APIs, parse data, and save to IndexedDB — all offline
-- Perfect for:
+- Cache responses, mock APIs, parse data, and save to IndexedDB.
+- Perfect for offline:
   - Flights and travel
-  - Rural / low-connectivity areas
+  - Rural and low-connectivity areas
   - Internet outages or cloud service blackouts
 
 ### 3. Zero Server Dependency
 - No backend hosting, deployment, scaling, or maintenance costs
-- The entire application (proxy included) is a static SPA — host on GitHub Pages, Netlify, Vercel, or even run from `file://`
+- The entire application (proxy included) is a static SPA, self-hosted or host on GitHub Pages, Netlify, Vercel
 - Maximum digital sovereignty and independence
 
 ### 4. Stronger Privacy & Data Control
@@ -66,19 +66,34 @@ An **SPA proxy** (Single-Page Application proxy) implemented entirely in the bro
 
 ### 5. Super-Fast Offline Development & Testing
 - Mock API endpoints directly in the browser
-- Record real responses → save → replay offline
+- Record real responses, save, replay offline
 - Build and debug features when external APIs are down, rate-limited, or unavailable
 - No need for external tools like Postman, Mockoon, or Mirage JS
 
 ### 6. Instant Responsiveness
-- Proxy runs in the same JavaScript context → near-zero added latency
-- Combine with Service Workers → cache + offline-first becomes even more powerful
+- Proxy runs in the same JavaScript context, zero-latency
+- Combine with cache, offline-first becomes even more powerful
 - Feels snappier than traditional server-mediated proxies
 
 ### 7. Ultimate Portability
 - One HTML/JS file can contain full proxy functionality
 - Share via email, USB, QR code, or static link
 - Run in restricted environments (corporate networks, air-gapped systems, etc.)
+- Broadcast your data with safe tokens.
+
+### 8. Local API mocking  
+  Create & test against fake endpoints directly in your browser – ideal for offline dev.
+
+- **Broadcast cached data via secure endpoint**  
+  Generate a temporary or token-protected URL endpoint in seconds.  
+  Anyone with the link + token can request your cached responses (JSON/XML) without exposing your full app or local storage.  
+  Perfect for quick sharing, team collaboration, demos, or feeding data to other tools/scripts — all while keeping control and privacy.
+- **Digital sovereignty & nomad-ready**  
+  Self-contained, self-hostable, no vendor lock-in – perfect for independent developers.
+
+<picture>
+  <img src="./4x4.png" alt="Overview" style="width:800px; height:32px">
+</picture>
 
 ### Trade-offs to Consider
 
